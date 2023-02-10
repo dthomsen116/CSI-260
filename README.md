@@ -2,7 +2,7 @@
 
 ### Author: David Thomsen
 ### Class: CSI-260
-### Proffesor: Sarah Pettitt
+### Professor: Sarah Pettitt
 
 Certification of Authenticity:
 I certify that this is entirely my own work, except where I have given
