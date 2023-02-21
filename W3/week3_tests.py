@@ -7,9 +7,9 @@ CSI-260 -- Spring 2019
 
 import unittest
 import sys
-week3 = None
+W3.week3 = None
 try:
-    import week3
+    import W3.week3 as week3
 except ImportError:
     pass  # swallow the error here, will be reported in test_1
 
