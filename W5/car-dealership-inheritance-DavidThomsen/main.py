@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from vehicle_types import Car, Truck, Motorcycle
 import sys
 from vehiclebook import Vehicle
@@ -80,6 +81,8 @@ Vehicle Menu
 if __name__ == "__main__":
     Menu().run()
 =======
+=======
+>>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
 from vehicle_types import Car, Motorcycle, Truck
 
 A=Car(10000,"Honda", "CRV", 2020,35)
@@ -98,5 +101,9 @@ C = Motorcycle(10000,"Harley Davidson", "Chopper", 2020, 20)
 print (C.miles)
 print(C.purchase_price())
 print(C.sale_price())
+<<<<<<< HEAD
+print(C)
+>>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
+=======
 print(C)
 >>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765

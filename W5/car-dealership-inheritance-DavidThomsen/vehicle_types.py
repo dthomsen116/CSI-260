@@ -3,7 +3,11 @@ define classes Car, Truck and Motorcycle in this file
 They should extend the Vehicle base class 
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 from vehiclebook import Vehicle
+=======
+from vehicle import Vehicle
+>>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
 =======
 from vehicle import Vehicle
 >>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
@@ -22,7 +26,11 @@ class Car(Vehicle):
     s= s + "\n Miles: " + str(self.miles)
     return s
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
 =======
   
 >>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
@@ -40,7 +48,11 @@ class Truck(Vehicle):
     s= s + "\n Miles: " + str(self.miles)
     return s
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
 =======
   
 >>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
