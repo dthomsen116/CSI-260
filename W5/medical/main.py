@@ -59,14 +59,8 @@ Notebook Menu
                 input("Emergency Number?: ")
                 ))
     
-    # def delete_patient(self):
-    #     inputid = int(input("provide the patient's ID"))
-        
-    #     for i in Patient.__all_patients:
-    #         if inputid == Patient.id:
-    #             Patient.__all_patients.remove()
-    #         else:
-    #             None
+    def delete_patient(self):
+        pass
                 
     # def save_patients(self):
     #     pass

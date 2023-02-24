@@ -2,15 +2,8 @@
 define classes Car, Truck and Motorcycle in this file 
 They should extend the Vehicle base class 
 """
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 from vehiclebook import Vehicle
-=======
-from vehicle import Vehicle
->>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
-=======
-from vehicle import Vehicle
->>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
 
 class Car(Vehicle):
   wheels = 4
@@ -25,15 +18,8 @@ class Car(Vehicle):
     s =s + "\n Year: " + str(self.year)
     s= s + "\n Miles: " + str(self.miles)
     return s
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
-=======
-  
->>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
+
 class Truck(Vehicle):
   wheels = 18
   def __init__(self, miles, make, model, year,fuelC):
@@ -47,15 +33,7 @@ class Truck(Vehicle):
     s =s + "\n Year: " + str(self.year)
     s= s + "\n Miles: " + str(self.miles)
     return s
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
-=======
-  
->>>>>>> 2ea9319b822c48bd290ece2dbdc9142520b0d765
 class Motorcycle(Vehicle):
   wheels = 2
   def __init__(self, miles, make, model, year,fuelC):
