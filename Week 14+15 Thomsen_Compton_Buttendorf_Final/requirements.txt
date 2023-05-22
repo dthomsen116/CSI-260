@@ -1,0 +1,6 @@
+deepface
+flask[async]
+filetype
+Pillow
+toml
+py-bcrypt

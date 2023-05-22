@@ -1,0 +1,25 @@
+<h3>Age trends:</h3>
+<ul class="list-group list-group-flush">
+    {% for k,v in ages_tally.items() %}
+    <li class="list-group-item">Saw {{ k }} a total of {{ v }} times.</li>
+    {% endfor %}
+</ul>
+<h3>Average age: {{ avg_age }}</h3>
+<h3>Emotion Trends:</h3>
+<ul class="list-group list-group-flush">
+    {% for k,v in tally_emotions.items() %}
+    <li class="list-group-item">Saw {{ k }} a total of {{ v }} times.</li>
+    {% endfor %}
+</ul>
+<h3>Gender Trends:</h3>
+<ul class="list-group list-group-flush">
+    {% for k,v in tally_genders.items() %}
+    <li class="list-group-item">Saw {{ k }} a total of {{ v }} times.</li>
+    {% endfor %}
+</ul>
+<h3>Race Trends:</h3>
+<ul class="list-group list-group-flush">
+    {% for k,v in tally_races.items() %}
+    <li class="list-group-item">Saw {{ k }} a total of {{ v }} times.</li>
+    {% endfor %}
+</ul>

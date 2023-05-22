@@ -4,7 +4,10 @@
 ### Class: CSI-260
 ### Professor: Sarah Pettitt
 
-Certification of Authenticity:
+
+## Group Work Done with Matt Compton, Abijah Buttendorf, & Sean Sawyers-Abbott
+
+# Certification of Authenticity:
 I certify that this is entirely my own work, except where I have given
 fully-documented references to the work of others. I understand the definition
 and consequences of plagiarism and acknowledge that the assessor of this
